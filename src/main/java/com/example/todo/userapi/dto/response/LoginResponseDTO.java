@@ -19,7 +19,6 @@ public class LoginResponseDTO {
     @JsonFormat(pattern = "yyyy년 MM월 dd일")
     private LocalDate joinDate;
     private String token; //인증 토큰
-//    private String message; //로그인 메시지
 
 
     public LoginResponseDTO(User user, String token) {
